@@ -1,0 +1,113 @@
+body{
+	margin : 0;
+	padding: 0;
+	line-height:1.6;
+	letter-spacing:1px;
+	font-family:Verdana,Helvetica,sans-serif;
+	font-size:12px;
+	color:#333;
+	background:#fff;
+}
+
+table{
+	text-align:center;
+	margin :0 auto;
+}
+
+#top{
+	width:75%;
+	margin:30px auto;
+	border:2px solid #333;
+	font-size:20px;
+}
+
+#header{
+	width:100%;
+	height:80px;
+	background-color:black;
+}
+
+#main{
+	width:100%;
+	height:500px;
+	text-align:center;
+}
+
+#left{
+	float:left;
+	width:33%;
+	height:250px;
+	color:black;
+	background-color: #cafbce;
+	border: 2px solid white;
+	box-shadow: 0 0 0 2px #cafbce;
+	margin-left:15%;
+	border-radius:2px;
+	text-shadow: 1px 1px 2px gray;
+}
+#left p{
+	font-size:24px;
+}
+
+#right{
+	float:right;
+	width:33%;
+	height:250px;
+	color:black;
+	background-color: #cafbce;
+	border: 2px solid white;
+	box-shadow: 0 0 0 2px #cafbce;
+	margin-right:15%;
+	border-radius:2px;
+	text-shadow: 1px 1px 2px gray;
+}
+#right p{
+	font-size:24px;
+}
+
+.btn{
+	font-size:15px;
+	width:80px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.btn_layout form{
+	display:inline-block;
+}
+
+.btn_layout a{
+	display:inline-block;
+}
+
+#list table{
+	border:2px solid black;
+	border-collapse: collapse;
+}
+
+#list table th:first-child{
+	width:50px;
+}
+
+#list table th{
+	background-color:#cafbce;
+	border:1px solid black;
+	width:170px;
+}
+
+#list table td{
+	border:1px solid black;
+
+}
+
+#text-link{
+	clear:both;
+	text align:center;
+}
+
+#footer{
+	width:100%;
+	height:80px;
+	background-color:black;
+	clear:both;
+}
